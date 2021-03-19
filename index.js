@@ -9,6 +9,9 @@ var students = [
 var tot = 0;
 classAverage(students) == 85.5;
 
+/**
+ * @param {string | any[]} students
+ */
 function classAverage(students) {
     var len = students.length;
     for (var i = 0; i <= len; i++) {
