@@ -16,7 +16,7 @@ function classAverage(students) {
     var len = students.length;
     for (var i = 0; i <= len; i++) {
         var student = students[i];
-        debugger;
+        console.log("Running javascript ", tot);
         tot += student.score;
     }
     return tot / len;
