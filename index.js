@@ -14,10 +14,11 @@ classAverage(students) == 85.5;
  */
 function classAverage(students) {
     var len = students.length;
-    for (var i = 0; i <= len; i++) {
+    for (var i = 0; i < len; i++) {
         var student = students[i];
-        console.log("Running javascript ", tot);
         tot += student.score;
+        console.log("Running javascript ", tot);
     }
+    console.log(tot / len);
     return tot / len;
 }
